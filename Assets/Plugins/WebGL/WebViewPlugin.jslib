@@ -174,5 +174,22 @@ mergeInto(LibraryManager.library, {
                 try { iframe.contentWindow.eval(js); } catch (e2) {}
             }
         }
+    },
+
+    // ========== Get localStorage (สำหรับ AuthManager) ==========
+    GetWebLocalStorage: function (keyPtr) {
+        var key = UTF8ToString(keyPtr);
+        try {
+            var value = window.localStorage.getItem(key);
+            if (value === null) return null;
+            
+            var bufferSize = lengthBytesUTF8(value) + 1;
+            var buffer = _malloc(bufferSize);
+            stringToUTF8(value, buffer, bufferSize);
+            return buffer;
+        } catch (e) {
+            console.error('[GetWebLocalStorage] Error:', e);
+            return null;
+        }
     }
 });

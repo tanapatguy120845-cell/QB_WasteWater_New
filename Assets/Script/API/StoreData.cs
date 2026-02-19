@@ -25,8 +25,8 @@ public static class StoreData
     public static string GetPassword()
     {
         string pw = PlayerPrefs.GetString(passwordKey, "");
-        // Default password for testing (เหมือน Bangpla ที่ใช้ user1234)
-        if (string.IsNullOrEmpty(pw)) return "user1234";
+        // Default password for testing (เหมือน Bangpla ที่ใช้ User@1234)
+        if (string.IsNullOrEmpty(pw)) return "User@1234";
         return pw;
     }
 

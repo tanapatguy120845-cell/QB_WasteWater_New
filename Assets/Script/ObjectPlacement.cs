@@ -502,10 +502,23 @@ public class ObjectPlacement : MonoBehaviour
         int layerMask = ~ignoreRaycastLayers.value;
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, Mathf.Infinity, layerMask);
 
+        GameObject hitTarget = null;
+        if (hit.collider != null)
+        {
+            DeviceComponent hitDevice = hit.collider.GetComponentInParent<DeviceComponent>();
+            TankData hitTank = hit.collider.GetComponentInParent<TankData>();
+            if (hitDevice != null)
+                hitTarget = hitDevice.gameObject;
+            else if (hitTank != null)
+                hitTarget = hitTank.gameObject;
+            else
+                hitTarget = hit.collider.gameObject;
+        }
+
         // If we currently have an active selector UI, and the click is on empty space or on a different object, destroy it
         if (activePrefabSelector != null)
         {
-            if (hit.collider == null || hit.collider.gameObject != prefabSelectorTarget)
+            if (hitTarget == null || hitTarget != prefabSelectorTarget)
             {
                 Destroy(activePrefabSelector);
                 activePrefabSelector = null;
@@ -513,10 +526,10 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (hit.collider != null)
+        if (hitTarget != null)
         {
             DeselectCurrent(); // เคลียร์ตัวเก่าก่อนเลือกตัวใหม่
-            selectedObject = hit.collider.gameObject;
+            selectedObject = hitTarget;
 
             TankData tankData = selectedObject.GetComponent<TankData>();
             DeviceComponent deviceData = selectedObject.GetComponent<DeviceComponent>();
@@ -561,21 +574,12 @@ public class ObjectPlacement : MonoBehaviour
 
             lastClickTime = Time.time;
 
-            // ทำ Highlight (ยกเว้น Device ที่มี DeviceComponent - ให้ DeviceComponent จัดการสีเอง)
-            DeviceComponent deviceComp = selectedObject.GetComponent<DeviceComponent>();
-            if (deviceComp == null)
+            // ทำ Highlight (รวม Device ด้วย เพื่อให้เห็นการเลือกชัดเจน)
+            selectedRenderer = selectedObject.GetComponent<SpriteRenderer>();
+            if (selectedRenderer != null)
             {
-                selectedRenderer = selectedObject.GetComponent<SpriteRenderer>();
-                if (selectedRenderer != null)
-                {
-                    originalColor = selectedRenderer.color;
-                    selectedRenderer.color = highlightColor;
-                }
-            }
-            else
-            {
-                // Device มี DeviceComponent - ไม่ยุ่งกับสี
-                selectedRenderer = null;
+                originalColor = selectedRenderer.color;
+                selectedRenderer.color = highlightColor;
             }
         }
         else 

@@ -70,11 +70,15 @@ public class SelectMachine : MonoBehaviour
     public void OnSelectClick()
     {
         onConfirm?.Invoke(machineId, tankId);
-        
-        // เปิด ManagerPopup ผ่าน PopupManager พร้อมส่ง DeviceComponent
-        if (PopupManager.Instance != null)
+
+        // เปิด WebView พร้อมส่งข้อมูล Device ที่เลือก
+        if (WebViewTester.Instance != null)
         {
-            PopupManager.Instance.ShowManagerPopup(machineId, tankId, linkedDevice);
+            WebViewTester.Instance.OpenWebViewForDevice(linkedDevice);
+        }
+        else
+        {
+            Debug.LogWarning("[SelectMachine] WebViewTester.Instance is null. Cannot open WebView.");
         }
         
         // ปิด SelectMachine popup

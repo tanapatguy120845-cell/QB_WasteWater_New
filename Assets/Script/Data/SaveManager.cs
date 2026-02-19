@@ -135,7 +135,15 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
 
         // --- เขียนไฟล์ local ที่เก็บ topic ---
         string jsonLocal = JsonUtility.ToJson(rootData, true);
+        
+        // Use PlayerPrefs for WebGL compatibility
+        #if UNITY_WEBGL && !UNITY_EDITOR
+        PlayerPrefs.SetString("tank_layout", jsonLocal);
+        PlayerPrefs.Save();
+        #else
         File.WriteAllText(savePath, jsonLocal);
+        #endif
+        
         Debug.Log("=== NEW JSON FORMAT (local) ===\n" + jsonLocal);
 
         // --- สร้างสำเนาเพื่อส่งไป server โดยตัด topic ทิ้ง ---
@@ -165,11 +173,11 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
 
     public void LoadGame()
     {
-        // ออกจาก Edit Mode ทันทีเมื่อกด LOAD
-        isEditMode = false;
-        if (uiController != null) uiController.ShowLobby(); // NEW: บังคับให้หน้าจอเป็น Lobby เสมอ
-        
-        Debug.Log("[SaveManager] กด LOAD → ออกจากโหมดแก้ไข (View Mode)");
+        // ออกจาก Edit Mode ทันทีเมื่อกด LOAD (ปิดใช้งานชั่วคราวเพื่อทดสอบ)
+        // isEditMode = false;
+        // if (uiController != null) uiController.ShowLobby(); // NEW: บังคับให้หน้าจอเป็น Lobby เสมอ
+        // 
+        // Debug.Log("[SaveManager] กด LOAD → ออกจากโหมดแก้ไข (View Mode)");
         
         if (loadFromRemote)
         {
@@ -184,13 +192,25 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
 
     private void LoadFromLocal()
     {
+        string json = "";
+        
+        // Use PlayerPrefs for WebGL compatibility
+        #if UNITY_WEBGL && !UNITY_EDITOR
+        json = PlayerPrefs.GetString("tank_layout", "");
+        if (string.IsNullOrEmpty(json))
+        {
+            Debug.LogWarning("[SaveManager] No local save data found.");
+            return;
+        }
+        #else
         if (!File.Exists(savePath))
         {
             Debug.LogWarning("[SaveManager] No local save file found.");
             return;
         }
-
-        string json = File.ReadAllText(savePath);
+        json = File.ReadAllText(savePath);
+        #endif
+        
         Debug.Log("Loaded JSON: " + json);
 
         GameSaveData data = JsonUtility.FromJson<GameSaveData>(json);
