@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- WebView ต้องการ INTERNET permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        tools:replace="android:usesCleartextTraffic">
+        <!-- usesCleartextTraffic=true เพื่อให้โหลด HTTP ได้ (Android 9+) -->
+        <!-- ถ้าใช้ HTTPS เท่านั้น สามารถเปลี่ยนเป็น false -->
+    </application>
+
+</manifest>

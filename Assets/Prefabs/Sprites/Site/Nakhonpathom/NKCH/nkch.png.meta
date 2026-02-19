@@ -1,0 +1,4368 @@
+fileFormatVersion: 2
+guid: a32e295cc140849c39f14cff8e071a2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3628116092400222662
+    second: nkch_0
+  - first:
+      213: -3372960208621674954
+    second: nkch_1
+  - first:
+      213: -6301844123506654187
+    second: nkch_2
+  - first:
+      213: 7406760816057275295
+    second: nkch_3
+  - first:
+      213: 8909669659129201576
+    second: nkch_4
+  - first:
+      213: -1070761452369829021
+    second: nkch_5
+  - first:
+      213: -7545058825396778042
+    second: nkch_6
+  - first:
+      213: -1727684031300057605
+    second: nkch_7
+  - first:
+      213: 8275582355510534806
+    second: nkch_8
+  - first:
+      213: -4750590349244184814
+    second: nkch_9
+  - first:
+      213: -1591368407630784461
+    second: nkch_10
+  - first:
+      213: -3635105951422350611
+    second: nkch_11
+  - first:
+      213: 2429279284275182353
+    second: nkch_12
+  - first:
+      213: -8241361318999194590
+    second: nkch_13
+  - first:
+      213: 6464479010387783876
+    second: nkch_14
+  - first:
+      213: 4794040213603052036
+    second: nkch_15
+  - first:
+      213: -3499638201069605484
+    second: nkch_16
+  - first:
+      213: 5661497936616611214
+    second: nkch_17
+  - first:
+      213: -4044291068187024504
+    second: nkch_18
+  - first:
+      213: -838474347572850794
+    second: nkch_19
+  - first:
+      213: 5267394010377830726
+    second: nkch_20
+  - first:
+      213: -8588049298400618440
+    second: nkch_21
+  - first:
+      213: -3247872898057115358
+    second: nkch_22
+  - first:
+      213: -907143438664120432
+    second: nkch_23
+  - first:
+      213: 3071894771833196244
+    second: nkch_24
+  - first:
+      213: 4474317418838131092
+    second: nkch_25
+  - first:
+      213: 7172426267503348471
+    second: nkch_26
+  - first:
+      213: -3507308885079167882
+    second: nkch_27
+  - first:
+      213: 9009434500599578503
+    second: nkch_28
+  - first:
+      213: -217992482424119286
+    second: nkch_29
+  - first:
+      213: 5411716619411807395
+    second: nkch_30
+  - first:
+      213: 9070378307302453300
+    second: nkch_31
+  - first:
+      213: 7904429966445030215
+    second: nkch_32
+  - first:
+      213: 3616416832362518553
+    second: nkch_33
+  - first:
+      213: -4763335225801128734
+    second: nkch_34
+  - first:
+      213: 7876696653192363684
+    second: nkch_35
+  - first:
+      213: -4515621162841931254
+    second: nkch_36
+  - first:
+      213: 7470805666013887132
+    second: nkch_37
+  - first:
+      213: 8455427136520806873
+    second: nkch_38
+  - first:
+      213: -81209917842782212
+    second: nkch_39
+  - first:
+      213: -4474922618797428040
+    second: nkch_40
+  - first:
+      213: -2440185597409414140
+    second: nkch_41
+  - first:
+      213: -8855616907109148008
+    second: nkch_42
+  - first:
+      213: -919376969661407142
+    second: nkch_43
+  - first:
+      213: 506162053988472670
+    second: nkch_44
+  - first:
+      213: -8607137880975464773
+    second: nkch_45
+  - first:
+      213: -2407616755174396999
+    second: nkch_46
+  - first:
+      213: -9129488693105500297
+    second: nkch_47
+  - first:
+      213: -5349252268509992412
+    second: nkch_48
+  - first:
+      213: 1461306638514529987
+    second: nkch_49
+  - first:
+      213: 1278029013875393384
+    second: nkch_50
+  - first:
+      213: -2000532011166360686
+    second: nkch_51
+  - first:
+      213: -3194244540393007250
+    second: nkch_52
+  - first:
+      213: 3065203581085309438
+    second: nkch_53
+  - first:
+      213: -2193625756285442868
+    second: nkch_54
+  - first:
+      213: -4349402647304315546
+    second: nkch_55
+  - first:
+      213: -7234164157058083018
+    second: nkch_56
+  - first:
+      213: 7817941761679513631
+    second: nkch_57
+  - first:
+      213: 9134917794363294333
+    second: nkch_58
+  - first:
+      213: 6806303669157491457
+    second: nkch_59
+  - first:
+      213: -8188612898370955546
+    second: nkch_60
+  - first:
+      213: -6719271910978552868
+    second: nkch_61
+  - first:
+      213: 5047594389889482795
+    second: nkch_62
+  - first:
+      213: 2996465260098484773
+    second: nkch_63
+  - first:
+      213: 7659261688557880593
+    second: nkch_64
+  - first:
+      213: 9062381561144034280
+    second: nkch_65
+  - first:
+      213: -3672606511694419806
+    second: nkch_66
+  - first:
+      213: 1171110301274309641
+    second: nkch_67
+  - first:
+      213: 4640236059831571258
+    second: nkch_68
+  - first:
+      213: -5505543785747741171
+    second: nkch_69
+  - first:
+      213: -5282824052387857383
+    second: nkch_70
+  - first:
+      213: -1314130702214375803
+    second: nkch_71
+  - first:
+      213: 6839016774941741668
+    second: nkch_72
+  - first:
+      213: -8176705852912255596
+    second: nkch_73
+  - first:
+      213: -6962824316924555575
+    second: nkch_74
+  - first:
+      213: -6002209942709508502
+    second: nkch_75
+  - first:
+      213: 319185675266317499
+    second: nkch_76
+  - first:
+      213: -4250270378131697575
+    second: nkch_77
+  - first:
+      213: 831743766397246616
+    second: nkch_78
+  - first:
+      213: -7715562797289804169
+    second: nkch_79
+  - first:
+      213: -2379116578291235133
+    second: nkch_80
+  - first:
+      213: -4791251190092495620
+    second: nkch_81
+  - first:
+      213: 5482893467814419159
+    second: nkch_82
+  - first:
+      213: 2604522967830570071
+    second: nkch_83
+  - first:
+      213: -8236542110587105329
+    second: nkch_84
+  - first:
+      213: -5733571470771676826
+    second: nkch_85
+  - first:
+      213: 6202094292456403300
+    second: nkch_86
+  - first:
+      213: -8544177795409844380
+    second: nkch_87
+  - first:
+      213: -3971567282331216505
+    second: nkch_88
+  - first:
+      213: -5086706689259371256
+    second: nkch_89
+  - first:
+      213: -6925303136297200007
+    second: nkch_90
+  - first:
+      213: -2108440302435942617
+    second: nkch_91
+  - first:
+      213: 3641827996390824820
+    second: nkch_92
+  - first:
+      213: -6504743969271457404
+    second: nkch_93
+  - first:
+      213: -5214677821630351330
+    second: nkch_94
+  - first:
+      213: -7817957936323372898
+    second: nkch_95
+  - first:
+      213: -4806930636203187732
+    second: nkch_96
+  - first:
+      213: -1616663224675481497
+    second: nkch_97
+  - first:
+      213: -772468840395017399
+    second: nkch_98
+  - first:
+      213: 1686925221412515047
+    second: nkch_99
+  - first:
+      213: -8180156032387899890
+    second: nkch_100
+  - first:
+      213: -3080896445999222625
+    second: nkch_101
+  - first:
+      213: 6116240985092671466
+    second: nkch_102
+  - first:
+      213: -1730383748082734203
+    second: nkch_103
+  - first:
+      213: -2255792700542693498
+    second: nkch_104
+  - first:
+      213: -7875881853021558061
+    second: nkch_105
+  - first:
+      213: 4518663629657438177
+    second: nkch_106
+  - first:
+      213: 8542650753349386619
+    second: nkch_107
+  - first:
+      213: 2413335906513331185
+    second: nkch_108
+  - first:
+      213: 7773938248467173919
+    second: nkch_109
+  - first:
+      213: -4657676822654076190
+    second: nkch_110
+  - first:
+      213: 1580157976441927875
+    second: nkch_111
+  - first:
+      213: 5370407469849331402
+    second: nkch_112
+  - first:
+      213: -2484206745512867417
+    second: nkch_113
+  - first:
+      213: 1845303745497879468
+    second: nkch_114
+  - first:
+      213: 5535431242669907322
+    second: nkch_115
+  - first:
+      213: 3207109861338656052
+    second: nkch_116
+  - first:
+      213: 102470035273231643
+    second: nkch_117
+  - first:
+      213: -8991824671674191728
+    second: nkch_118
+  - first:
+      213: -7073968939802066727
+    second: nkch_119
+  - first:
+      213: -3333306667879442274
+    second: nkch_120
+  - first:
+      213: -1785545555292835335
+    second: nkch_121
+  - first:
+      213: -5580734266045164531
+    second: nkch_122
+  - first:
+      213: -3705874925935159269
+    second: nkch_123
+  - first:
+      213: 3030398317040940485
+    second: nkch_124
+  - first:
+      213: 8696268945802933613
+    second: nkch_125
+  - first:
+      213: -6385683206823026334
+    second: nkch_126
+  - first:
+      213: -1982717068264244524
+    second: nkch_127
+  - first:
+      213: 3743706663094562087
+    second: nkch_128
+  - first:
+      213: -777661572219520722
+    second: nkch_129
+  - first:
+      213: -8331462482263821594
+    second: nkch_130
+  - first:
+      213: 1063361219491279861
+    second: nkch_131
+  - first:
+      213: 4889719673286579042
+    second: nkch_132
+  - first:
+      213: -8115786794697293118
+    second: nkch_133
+  - first:
+      213: 1187172897560480495
+    second: nkch_134
+  - first:
+      213: -4958186049939796281
+    second: nkch_135
+  - first:
+      213: 834255040817937772
+    second: nkch_136
+  - first:
+      213: 7465182797037693127
+    second: nkch_137
+  - first:
+      213: -7595397586524674966
+    second: nkch_138
+  - first:
+      213: 7987234512313903588
+    second: nkch_139
+  - first:
+      213: 810060785672136971
+    second: nkch_140
+  - first:
+      213: -790497460644682682
+    second: nkch_141
+  - first:
+      213: -3754982256580804949
+    second: nkch_142
+  - first:
+      213: -5140317093506856174
+    second: nkch_143
+  - first:
+      213: -2613738311622437006
+    second: nkch_144
+  - first:
+      213: -1929892178172712680
+    second: nkch_145
+  - first:
+      213: -4121927501020305729
+    second: nkch_146
+  - first:
+      213: -4076837920515332587
+    second: nkch_147
+  - first:
+      213: 6844672066031249686
+    second: nkch_148
+  - first:
+      213: -416113004395754615
+    second: nkch_149
+  - first:
+      213: -9205696349634929793
+    second: nkch_150
+  - first:
+      213: -8231230937133869926
+    second: nkch_151
+  - first:
+      213: -8045185814931746527
+    second: nkch_152
+  - first:
+      213: -8486763672596917484
+    second: nkch_153
+  - first:
+      213: 8924971557731774017
+    second: nkch_154
+  - first:
+      213: 967941735496701101
+    second: nkch_155
+  - first:
+      213: -5181911950766947269
+    second: nkch_156
+  - first:
+      213: -8477125893012599590
+    second: nkch_157
+  - first:
+      213: -8235206972780328913
+    second: nkch_158
+  - first:
+      213: 3272535905663407210
+    second: nkch_159
+  - first:
+      213: 4375117347201948107
+    second: nkch_160
+  - first:
+      213: -306662542036167009
+    second: nkch_161
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nkch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 7680
+        height: 4096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e3b94f2a756adc0800000000000000
+      internalID: -3628116092400222662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_1
+      rect:
+        serializedVersion: 2
+        x: 4222
+        y: 4089
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ed39b9f86d031d0800000000000000
+      internalID: -3372960208621674954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_2
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 4087
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514c084882a5b88a0800000000000000
+      internalID: -6301844123506654187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_3
+      rect:
+        serializedVersion: 2
+        x: 4348
+        y: 4091
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93506138b91ac660800000000000000
+      internalID: 7406760816057275295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_4
+      rect:
+        serializedVersion: 2
+        x: 4380
+        y: 4084
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3c87a795185ab70800000000000000
+      internalID: 8909669659129201576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_5
+      rect:
+        serializedVersion: 2
+        x: 4402
+        y: 4087
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363a058d124e321f0800000000000000
+      internalID: -1070761452369829021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_6
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 4086
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb8cc649f09a4790800000000000000
+      internalID: -7545058825396778042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_7
+      rect:
+        serializedVersion: 2
+        x: 4426
+        y: 4089
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5ce36f6880608e0800000000000000
+      internalID: -1727684031300057605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_8
+      rect:
+        serializedVersion: 2
+        x: 4431
+        y: 4088
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69222b17e46c8d270800000000000000
+      internalID: 8275582355510534806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_9
+      rect:
+        serializedVersion: 2
+        x: 4442
+        y: 4088
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217c6ef3f33821eb0800000000000000
+      internalID: -4750590349244184814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_10
+      rect:
+        serializedVersion: 2
+        x: 4468
+        y: 4087
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338536c5dd25ae9e0800000000000000
+      internalID: -1591368407630784461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_11
+      rect:
+        serializedVersion: 2
+        x: 4475
+        y: 4088
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deaff8495628d8dc0800000000000000
+      internalID: -3635105951422350611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_12
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 4089
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bff6f53a886b120800000000000000
+      internalID: 2429279284275182353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_13
+      rect:
+        serializedVersion: 2
+        x: 4497
+        y: 4084
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22488638b8dc0ad80800000000000000
+      internalID: -8241361318999194590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_14
+      rect:
+        serializedVersion: 2
+        x: 4505
+        y: 4090
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0f120e86176b950800000000000000
+      internalID: 6464479010387783876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_15
+      rect:
+        serializedVersion: 2
+        x: 4522
+        y: 4086
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a6fb2ac2ad78240800000000000000
+      internalID: 4794040213603052036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_16
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 4090
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49debd61999ce6fc0800000000000000
+      internalID: -3499638201069605484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_17
+      rect:
+        serializedVersion: 2
+        x: 4544
+        y: 4089
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dd3a0a06ea19e40800000000000000
+      internalID: 5661497936616611214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_18
+      rect:
+        serializedVersion: 2
+        x: 4557
+        y: 4087
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8836d6873bacfd7c0800000000000000
+      internalID: -4044291068187024504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_19
+      rect:
+        serializedVersion: 2
+        x: 4564
+        y: 4082
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f84a7f5042d54f0800000000000000
+      internalID: -838474347572850794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_20
+      rect:
+        serializedVersion: 2
+        x: 4570
+        y: 4091
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6414790d1fa891940800000000000000
+      internalID: 5267394010377830726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_21
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 4085
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838d94f1aae11d880800000000000000
+      internalID: -8588049298400618440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_22
+      rect:
+        serializedVersion: 2
+        x: 4587
+        y: 4091
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229efa3aecc3de2d0800000000000000
+      internalID: -3247872898057115358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_23
+      rect:
+        serializedVersion: 2
+        x: 4604
+        y: 4085
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097491a49dd2963f0800000000000000
+      internalID: -907143438664120432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_24
+      rect:
+        serializedVersion: 2
+        x: 4617
+        y: 4083
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de4f76f40091aa20800000000000000
+      internalID: 3071894771833196244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_25
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 4088
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491803a8cf7f71e30800000000000000
+      internalID: 4474317418838131092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_26
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 4088
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fac73c60b3998360800000000000000
+      internalID: 7172426267503348471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_27
+      rect:
+        serializedVersion: 2
+        x: 4637
+        y: 4088
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ce84bc629835fc0800000000000000
+      internalID: -3507308885079167882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_28
+      rect:
+        serializedVersion: 2
+        x: 4650
+        y: 4081
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ff26bb1f0f70d70800000000000000
+      internalID: 9009434500599578503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_29
+      rect:
+        serializedVersion: 2
+        x: 4659
+        y: 4080
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00a7610ef889fcf0800000000000000
+      internalID: -217992482424119286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_30
+      rect:
+        serializedVersion: 2
+        x: 4708
+        y: 4088
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac5e15c7974a1b40800000000000000
+      internalID: 5411716619411807395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_31
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 4090
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430fb29730570ed70800000000000000
+      internalID: 9070378307302453300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_32
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 4083
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ba8edcc2d22bd60800000000000000
+      internalID: 7904429966445030215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_33
+      rect:
+        serializedVersion: 2
+        x: 4762
+        y: 4090
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91816bcc2f7103230800000000000000
+      internalID: 3616416832362518553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_34
+      rect:
+        serializedVersion: 2
+        x: 4781
+        y: 4086
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4c40079db35edb0800000000000000
+      internalID: -4763335225801128734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_35
+      rect:
+        serializedVersion: 2
+        x: 4809
+        y: 4084
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aef901afd5af4d60800000000000000
+      internalID: 7876696653192363684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_36
+      rect:
+        serializedVersion: 2
+        x: 4895
+        y: 4087
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0202982a7a4551c0800000000000000
+      internalID: -4515621162841931254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_37
+      rect:
+        serializedVersion: 2
+        x: 4902
+        y: 4087
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9abbb4db22ada760800000000000000
+      internalID: 7470805666013887132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_38
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 4085
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d165809e26b75570800000000000000
+      internalID: 8455427136520806873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_39
+      rect:
+        serializedVersion: 2
+        x: 4966
+        y: 4088
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf70ebe820c7fdef0800000000000000
+      internalID: -81209917842782212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_40
+      rect:
+        serializedVersion: 2
+        x: 4982
+        y: 4089
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2f73d5691e5e1c0800000000000000
+      internalID: -4474922618797428040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_41
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 4080
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4043368b028b22ed0800000000000000
+      internalID: -2440185597409414140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_42
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 4076
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ad0d097578a1580800000000000000
+      internalID: -8855616907109148008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_43
+      rect:
+        serializedVersion: 2
+        x: 4310
+        y: 4081
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5028a46487bd33f0800000000000000
+      internalID: -919376969661407142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_44
+      rect:
+        serializedVersion: 2
+        x: 4338
+        y: 4084
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57d3c2d4bf360700800000000000000
+      internalID: 506162053988472670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_45
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 4082
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb626a723bd4d8880800000000000000
+      internalID: -8607137880975464773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_46
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 4074
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb2d88315d669ed0800000000000000
+      internalID: -2407616755174396999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_47
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 4078
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f508a576a8d4180800000000000000
+      internalID: -9129488693105500297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_48
+      rect:
+        serializedVersion: 2
+        x: 4405
+        y: 4081
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a62814763a3c5b0800000000000000
+      internalID: -5349252268509992412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_49
+      rect:
+        serializedVersion: 2
+        x: 4434
+        y: 4079
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6249835aa974410800000000000000
+      internalID: 1461306638514529987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_50
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 4081
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8638fa8ed987cb110800000000000000
+      internalID: 1278029013875393384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_51
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 4077
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b91a03cbeac34e0800000000000000
+      internalID: -2000532011166360686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_52
+      rect:
+        serializedVersion: 2
+        x: 4462
+        y: 4078
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67d42ca383cba3d0800000000000000
+      internalID: -3194244540393007250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_53
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 4081
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef958d6ba6ac98a20800000000000000
+      internalID: 3065203581085309438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_54
+      rect:
+        serializedVersion: 2
+        x: 4483
+        y: 4080
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4657a3ffcae81e0800000000000000
+      internalID: -2193625756285442868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_55
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 4079
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d584e1651d3a3c0800000000000000
+      internalID: -4349402647304315546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_56
+      rect:
+        serializedVersion: 2
+        x: 4506
+        y: 4084
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63790b307061b9b90800000000000000
+      internalID: -7234164157058083018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_57
+      rect:
+        serializedVersion: 2
+        x: 4512
+        y: 4076
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18599b6c98ee7c60800000000000000
+      internalID: 7817941761679513631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_58
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 4079
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d724b69c55fb5ce70800000000000000
+      internalID: 9134917794363294333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_59
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 4076
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103f1913029d47e50800000000000000
+      internalID: 6806303669157491457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_60
+      rect:
+        serializedVersion: 2
+        x: 4549
+        y: 4083
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6da6d34f33c5e80800000000000000
+      internalID: -8188612898370955546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_61
+      rect:
+        serializedVersion: 2
+        x: 4552
+        y: 4078
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbfcd41cc950c2a0800000000000000
+      internalID: -6719271910978552868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_62
+      rect:
+        serializedVersion: 2
+        x: 4583
+        y: 4079
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b200e93ba58ac0640800000000000000
+      internalID: 5047594389889482795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_63
+      rect:
+        serializedVersion: 2
+        x: 4591
+        y: 4080
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52af7f13745959920800000000000000
+      internalID: 2996465260098484773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_64
+      rect:
+        serializedVersion: 2
+        x: 4609
+        y: 4080
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115404cdce92b4a60800000000000000
+      internalID: 7659261688557880593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_65
+      rect:
+        serializedVersion: 2
+        x: 4636
+        y: 4062
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e34a0be30c04cd70800000000000000
+      internalID: 9062381561144034280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_66
+      rect:
+        serializedVersion: 2
+        x: 4638
+        y: 4083
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8eaaef5d7480dc0800000000000000
+      internalID: -3672606511694419806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_67
+      rect:
+        serializedVersion: 2
+        x: 4667
+        y: 4077
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904814c3d9e904010800000000000000
+      internalID: 1171110301274309641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_68
+      rect:
+        serializedVersion: 2
+        x: 4671
+        y: 4075
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3318348c1e656040800000000000000
+      internalID: 4640236059831571258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_69
+      rect:
+        serializedVersion: 2
+        x: 4676
+        y: 4076
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d068523b8116893b0800000000000000
+      internalID: -5505543785747741171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_70
+      rect:
+        serializedVersion: 2
+        x: 4682
+        y: 4081
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c38829383afa6b0800000000000000
+      internalID: -5282824052387857383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_71
+      rect:
+        serializedVersion: 2
+        x: 4692
+        y: 4077
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586d312c61543cde0800000000000000
+      internalID: -1314130702214375803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_72
+      rect:
+        serializedVersion: 2
+        x: 4703
+        y: 4082
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462175ba58119ee50800000000000000
+      internalID: 6839016774941741668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_73
+      rect:
+        serializedVersion: 2
+        x: 4713
+        y: 4082
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49dbe4c4951868e80800000000000000
+      internalID: -8176705852912255596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_74
+      rect:
+        serializedVersion: 2
+        x: 4720
+        y: 4080
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce8244ac241f5f90800000000000000
+      internalID: -6962824316924555575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_75
+      rect:
+        serializedVersion: 2
+        x: 4732
+        y: 4078
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a666b71bbddd3bca0800000000000000
+      internalID: -6002209942709508502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_76
+      rect:
+        serializedVersion: 2
+        x: 4751
+        y: 4078
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc54a73ea9fd6400800000000000000
+      internalID: 319185675266317499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_77
+      rect:
+        serializedVersion: 2
+        x: 4777
+        y: 4082
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95058182c910405c0800000000000000
+      internalID: -4250270378131697575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_78
+      rect:
+        serializedVersion: 2
+        x: 4794
+        y: 4075
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cd04c7c82fa8b00800000000000000
+      internalID: 831743766397246616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_79
+      rect:
+        serializedVersion: 2
+        x: 4798
+        y: 4079
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e6251c380dce490800000000000000
+      internalID: -7715562797289804169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_80
+      rect:
+        serializedVersion: 2
+        x: 4837
+        y: 4078
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c645bfb31eabfed0800000000000000
+      internalID: -2379116578291235133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_81
+      rect:
+        serializedVersion: 2
+        x: 4867
+        y: 4081
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf48ed08d6e028db0800000000000000
+      internalID: -4791251190092495620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_82
+      rect:
+        serializedVersion: 2
+        x: 4882
+        y: 4078
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da53623f86271c40800000000000000
+      internalID: 5482893467814419159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_83
+      rect:
+        serializedVersion: 2
+        x: 4917
+        y: 4079
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75423e207df152420800000000000000
+      internalID: 2604522967830570071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_84
+      rect:
+        serializedVersion: 2
+        x: 5076
+        y: 4080
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfc8e8e69ce1bd80800000000000000
+      internalID: -8236542110587105329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_85
+      rect:
+        serializedVersion: 2
+        x: 5127
+        y: 4084
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669175600234e60b0800000000000000
+      internalID: -5733571470771676826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_86
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 4073
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461775d16e3421650800000000000000
+      internalID: 6202094292456403300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_87
+      rect:
+        serializedVersion: 2
+        x: 4151
+        y: 4074
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467e0d6609bfc6980800000000000000
+      internalID: -8544177795409844380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_88
+      rect:
+        serializedVersion: 2
+        x: 4172
+        y: 4074
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7859517599822e8c0800000000000000
+      internalID: -3971567282331216505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_89
+      rect:
+        serializedVersion: 2
+        x: 4202
+        y: 4074
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805871677336869b0800000000000000
+      internalID: -5086706689259371256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_90
+      rect:
+        serializedVersion: 2
+        x: 4230
+        y: 4071
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9765b174d7164ef90800000000000000
+      internalID: -6925303136297200007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_91
+      rect:
+        serializedVersion: 2
+        x: 4291
+        y: 4072
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f303747b05db2e0800000000000000
+      internalID: -2108440302435942617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_92
+      rect:
+        serializedVersion: 2
+        x: 4316
+        y: 4071
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b92f9744f5a8230800000000000000
+      internalID: 3641827996390824820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_93
+      rect:
+        serializedVersion: 2
+        x: 4342
+        y: 4077
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489d5b4d2d18ab5a0800000000000000
+      internalID: -6504743969271457404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_94
+      rect:
+        serializedVersion: 2
+        x: 4345
+        y: 4072
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e187d97562eb1a7b0800000000000000
+      internalID: -5214677821630351330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_95
+      rect:
+        serializedVersion: 2
+        x: 4383
+        y: 4071
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98df70ada8018390800000000000000
+      internalID: -7817957936323372898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_96
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 4070
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1aa29fd0a5a4db0800000000000000
+      internalID: -4806930636203187732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_97
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4070
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768c7c3dc557099e0800000000000000
+      internalID: -1616663224675481497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_98
+      rect:
+        serializedVersion: 2
+        x: 4408
+        y: 4073
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9437230bea3a745f0800000000000000
+      internalID: -772468840395017399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_99
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 4061
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eca0f81d89296710800000000000000
+      internalID: 1686925221412515047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_100
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 4072
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e104acd6f3a7e80800000000000000
+      internalID: -8180156032387899890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_101
+      rect:
+        serializedVersion: 2
+        x: 4473
+        y: 4075
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90f37271057e35d0800000000000000
+      internalID: -3080896445999222625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_102
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 4073
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7422d45c041e450800000000000000
+      internalID: 6116240985092671466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_103
+      rect:
+        serializedVersion: 2
+        x: 4504
+        y: 4074
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b6b6a26217cf7e0800000000000000
+      internalID: -1730383748082734203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_104
+      rect:
+        serializedVersion: 2
+        x: 4517
+        y: 4069
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fcb359d70d1b0e0800000000000000
+      internalID: -2255792700542693498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_105
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 4074
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da64b1de2f33b290800000000000000
+      internalID: -7875881853021558061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_106
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 4064
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7753951a485be30800000000000000
+      internalID: 4518663629657438177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_107
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 4060
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b710d9969979d8670800000000000000
+      internalID: 8542650753349386619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_108
+      rect:
+        serializedVersion: 2
+        x: 4559
+        y: 4075
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f32c677834ed7120800000000000000
+      internalID: 2413335906513331185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_109
+      rect:
+        serializedVersion: 2
+        x: 4574
+        y: 4075
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1255bd16a392eb60800000000000000
+      internalID: 7773938248467173919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_110
+      rect:
+        serializedVersion: 2
+        x: 4577
+        y: 4077
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea32237b9b9c5fb0800000000000000
+      internalID: -4657676822654076190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_111
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 4070
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c832dabe49dde510800000000000000
+      internalID: 1580157976441927875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_112
+      rect:
+        serializedVersion: 2
+        x: 4603
+        y: 4072
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac64973e325878a40800000000000000
+      internalID: 5370407469849331402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_113
+      rect:
+        serializedVersion: 2
+        x: 4614
+        y: 4073
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a983197023568dd0800000000000000
+      internalID: -2484206745512867417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_114
+      rect:
+        serializedVersion: 2
+        x: 4631
+        y: 4073
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3591dcaf5db9910800000000000000
+      internalID: 1845303745497879468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_115
+      rect:
+        serializedVersion: 2
+        x: 4650
+        y: 4068
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d50f1236dc1dc40800000000000000
+      internalID: 5535431242669907322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_116
+      rect:
+        serializedVersion: 2
+        x: 4655
+        y: 4077
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d2eb84d61f18c20800000000000000
+      internalID: 3207109861338656052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_117
+      rect:
+        serializedVersion: 2
+        x: 4678
+        y: 4065
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d259444fb0c6100800000000000000
+      internalID: 102470035273231643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_118
+      rect:
+        serializedVersion: 2
+        x: 4695
+        y: 4072
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09034421a1f963380800000000000000
+      internalID: -8991824671674191728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_119
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 4071
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d083fe8ab634dd90800000000000000
+      internalID: -7073968939802066727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_120
+      rect:
+        serializedVersion: 2
+        x: 4706
+        y: 4052
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98da950f37bdb1d0800000000000000
+      internalID: -3333306667879442274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_121
+      rect:
+        serializedVersion: 2
+        x: 4716
+        y: 4071
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f13e7617c77837e0800000000000000
+      internalID: -1785545555292835335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_122
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 4074
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d041786c0cf3d82b0800000000000000
+      internalID: -5580734266045164531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_123
+      rect:
+        serializedVersion: 2
+        x: 4732
+        y: 4072
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b189b91b366129cc0800000000000000
+      internalID: -3705874925935159269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_124
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 4071
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5ba2fa6332e0a20800000000000000
+      internalID: 3030398317040940485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_125
+      rect:
+        serializedVersion: 2
+        x: 4762
+        y: 4073
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6538d9088a5fa870800000000000000
+      internalID: 8696268945802933613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_126
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 4074
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261e229c4fe7167a0800000000000000
+      internalID: -6385683206823026334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_127
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 4076
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da7100d459fb74e0800000000000000
+      internalID: -1982717068264244524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_128
+      rect:
+        serializedVersion: 2
+        x: 4823
+        y: 4068
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72da305006154f330800000000000000
+      internalID: 3743706663094562087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_129
+      rect:
+        serializedVersion: 2
+        x: 4850
+        y: 4075
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2932689be03535f0800000000000000
+      internalID: -777661572219520722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_130
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 4065
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2bb2da303b06c80800000000000000
+      internalID: -8331462482263821594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_131
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 4076
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f334bb2561d1ce00800000000000000
+      internalID: 1063361219491279861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_132
+      rect:
+        serializedVersion: 2
+        x: 4889
+        y: 4072
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2635c71d226cbd340800000000000000
+      internalID: 4889719673286579042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_133
+      rect:
+        serializedVersion: 2
+        x: 4916
+        y: 4076
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c20345d8eeee5f80800000000000000
+      internalID: -8115786794697293118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_134
+      rect:
+        serializedVersion: 2
+        x: 5034
+        y: 4076
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea401ed57fa97010800000000000000
+      internalID: 1187172897560480495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_135
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 4066
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce8a03ae0cf03bb0800000000000000
+      internalID: -4958186049939796281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_136
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 4063
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d38002a8ed39b00800000000000000
+      internalID: 834255040817937772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_137
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 4068
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8e9c0a338a99760800000000000000
+      internalID: 7465182797037693127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_138
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 4064
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64665f132ab79690800000000000000
+      internalID: -7595397586524674966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_139
+      rect:
+        serializedVersion: 2
+        x: 4527
+        y: 4059
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9e534887b58de60800000000000000
+      internalID: 7987234512313903588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_140
+      rect:
+        serializedVersion: 2
+        x: 4557
+        y: 4067
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0926702ef9ed3b00800000000000000
+      internalID: 810060785672136971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_141
+      rect:
+        serializedVersion: 2
+        x: 4562
+        y: 4061
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644ec6e6fb69705f0800000000000000
+      internalID: -790497460644682682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_142
+      rect:
+        serializedVersion: 2
+        x: 4574
+        y: 4065
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae3b9a488f93ebc0800000000000000
+      internalID: -3754982256580804949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_143
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 4064
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bc7a886dce9a8b0800000000000000
+      internalID: -5140317093506856174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_144
+      rect:
+        serializedVersion: 2
+        x: 4603
+        y: 4066
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2775aef8ad22abbd0800000000000000
+      internalID: -2613738311622437006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_145
+      rect:
+        serializedVersion: 2
+        x: 4610
+        y: 4069
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819e539f945a735e0800000000000000
+      internalID: -1929892178172712680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_146
+      rect:
+        serializedVersion: 2
+        x: 4615
+        y: 4068
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb665c7d6c8fbc6c0800000000000000
+      internalID: -4121927501020305729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_147
+      rect:
+        serializedVersion: 2
+        x: 4669
+        y: 4069
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51667d4e2892c67c0800000000000000
+      internalID: -4076837920515332587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_148
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 4060
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619e4dbbaf82dfe50800000000000000
+      internalID: 6844672066031249686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_149
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 4069
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b029a5d6ba93af0800000000000000
+      internalID: -416113004395754615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_150
+      rect:
+        serializedVersion: 2
+        x: 4742
+        y: 4064
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b56e1a1fbce3080800000000000000
+      internalID: -9205696349634929793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_151
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 4065
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a941ee7d21bc4cd80800000000000000
+      internalID: -8231230937133869926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_152
+      rect:
+        serializedVersion: 2
+        x: 4764
+        y: 4065
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1215bf46022c95090800000000000000
+      internalID: -8045185814931746527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_153
+      rect:
+        serializedVersion: 2
+        x: 4804
+        y: 4070
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413db229765f83a80800000000000000
+      internalID: -8486763672596917484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_154
+      rect:
+        serializedVersion: 2
+        x: 4809
+        y: 4061
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e2111685edbdb70800000000000000
+      internalID: 8924971557731774017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_155
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 4066
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da45e8b41e1de6d00800000000000000
+      internalID: 967941735496701101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_156
+      rect:
+        serializedVersion: 2
+        x: 4835
+        y: 4063
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b344f2529862618b0800000000000000
+      internalID: -5181911950766947269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_157
+      rect:
+        serializedVersion: 2
+        x: 4886
+        y: 4046
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcc7bef9e23b5a80800000000000000
+      internalID: -8477125893012599590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_158
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 4066
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28cb97e3eaa6bd80800000000000000
+      internalID: -8235206972780328913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_159
+      rect:
+        serializedVersion: 2
+        x: 4947
+        y: 4070
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6457cb41126a6d20800000000000000
+      internalID: 3272535905663407210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_160
+      rect:
+        serializedVersion: 2
+        x: 4973
+        y: 4067
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc91f920c0a87bc30800000000000000
+      internalID: 4375117347201948107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nkch_161
+      rect:
+        serializedVersion: 2
+        x: 5082
+        y: 4069
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f961404fa048ebbf0800000000000000
+      internalID: -306662542036167009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nkch_0: -3628116092400222662
+      nkch_1: -3372960208621674954
+      nkch_10: -1591368407630784461
+      nkch_100: -8180156032387899890
+      nkch_101: -3080896445999222625
+      nkch_102: 6116240985092671466
+      nkch_103: -1730383748082734203
+      nkch_104: -2255792700542693498
+      nkch_105: -7875881853021558061
+      nkch_106: 4518663629657438177
+      nkch_107: 8542650753349386619
+      nkch_108: 2413335906513331185
+      nkch_109: 7773938248467173919
+      nkch_11: -3635105951422350611
+      nkch_110: -4657676822654076190
+      nkch_111: 1580157976441927875
+      nkch_112: 5370407469849331402
+      nkch_113: -2484206745512867417
+      nkch_114: 1845303745497879468
+      nkch_115: 5535431242669907322
+      nkch_116: 3207109861338656052
+      nkch_117: 102470035273231643
+      nkch_118: -8991824671674191728
+      nkch_119: -7073968939802066727
+      nkch_12: 2429279284275182353
+      nkch_120: -3333306667879442274
+      nkch_121: -1785545555292835335
+      nkch_122: -5580734266045164531
+      nkch_123: -3705874925935159269
+      nkch_124: 3030398317040940485
+      nkch_125: 8696268945802933613
+      nkch_126: -6385683206823026334
+      nkch_127: -1982717068264244524
+      nkch_128: 3743706663094562087
+      nkch_129: -777661572219520722
+      nkch_13: -8241361318999194590
+      nkch_130: -8331462482263821594
+      nkch_131: 1063361219491279861
+      nkch_132: 4889719673286579042
+      nkch_133: -8115786794697293118
+      nkch_134: 1187172897560480495
+      nkch_135: -4958186049939796281
+      nkch_136: 834255040817937772
+      nkch_137: 7465182797037693127
+      nkch_138: -7595397586524674966
+      nkch_139: 7987234512313903588
+      nkch_14: 6464479010387783876
+      nkch_140: 810060785672136971
+      nkch_141: -790497460644682682
+      nkch_142: -3754982256580804949
+      nkch_143: -5140317093506856174
+      nkch_144: -2613738311622437006
+      nkch_145: -1929892178172712680
+      nkch_146: -4121927501020305729
+      nkch_147: -4076837920515332587
+      nkch_148: 6844672066031249686
+      nkch_149: -416113004395754615
+      nkch_15: 4794040213603052036
+      nkch_150: -9205696349634929793
+      nkch_151: -8231230937133869926
+      nkch_152: -8045185814931746527
+      nkch_153: -8486763672596917484
+      nkch_154: 8924971557731774017
+      nkch_155: 967941735496701101
+      nkch_156: -5181911950766947269
+      nkch_157: -8477125893012599590
+      nkch_158: -8235206972780328913
+      nkch_159: 3272535905663407210
+      nkch_16: -3499638201069605484
+      nkch_160: 4375117347201948107
+      nkch_161: -306662542036167009
+      nkch_17: 5661497936616611214
+      nkch_18: -4044291068187024504
+      nkch_19: -838474347572850794
+      nkch_2: -6301844123506654187
+      nkch_20: 5267394010377830726
+      nkch_21: -8588049298400618440
+      nkch_22: -3247872898057115358
+      nkch_23: -907143438664120432
+      nkch_24: 3071894771833196244
+      nkch_25: 4474317418838131092
+      nkch_26: 7172426267503348471
+      nkch_27: -3507308885079167882
+      nkch_28: 9009434500599578503
+      nkch_29: -217992482424119286
+      nkch_3: 7406760816057275295
+      nkch_30: 5411716619411807395
+      nkch_31: 9070378307302453300
+      nkch_32: 7904429966445030215
+      nkch_33: 3616416832362518553
+      nkch_34: -4763335225801128734
+      nkch_35: 7876696653192363684
+      nkch_36: -4515621162841931254
+      nkch_37: 7470805666013887132
+      nkch_38: 8455427136520806873
+      nkch_39: -81209917842782212
+      nkch_4: 8909669659129201576
+      nkch_40: -4474922618797428040
+      nkch_41: -2440185597409414140
+      nkch_42: -8855616907109148008
+      nkch_43: -919376969661407142
+      nkch_44: 506162053988472670
+      nkch_45: -8607137880975464773
+      nkch_46: -2407616755174396999
+      nkch_47: -9129488693105500297
+      nkch_48: -5349252268509992412
+      nkch_49: 1461306638514529987
+      nkch_5: -1070761452369829021
+      nkch_50: 1278029013875393384
+      nkch_51: -2000532011166360686
+      nkch_52: -3194244540393007250
+      nkch_53: 3065203581085309438
+      nkch_54: -2193625756285442868
+      nkch_55: -4349402647304315546
+      nkch_56: -7234164157058083018
+      nkch_57: 7817941761679513631
+      nkch_58: 9134917794363294333
+      nkch_59: 6806303669157491457
+      nkch_6: -7545058825396778042
+      nkch_60: -8188612898370955546
+      nkch_61: -6719271910978552868
+      nkch_62: 5047594389889482795
+      nkch_63: 2996465260098484773
+      nkch_64: 7659261688557880593
+      nkch_65: 9062381561144034280
+      nkch_66: -3672606511694419806
+      nkch_67: 1171110301274309641
+      nkch_68: 4640236059831571258
+      nkch_69: -5505543785747741171
+      nkch_7: -1727684031300057605
+      nkch_70: -5282824052387857383
+      nkch_71: -1314130702214375803
+      nkch_72: 6839016774941741668
+      nkch_73: -8176705852912255596
+      nkch_74: -6962824316924555575
+      nkch_75: -6002209942709508502
+      nkch_76: 319185675266317499
+      nkch_77: -4250270378131697575
+      nkch_78: 831743766397246616
+      nkch_79: -7715562797289804169
+      nkch_8: 8275582355510534806
+      nkch_80: -2379116578291235133
+      nkch_81: -4791251190092495620
+      nkch_82: 5482893467814419159
+      nkch_83: 2604522967830570071
+      nkch_84: -8236542110587105329
+      nkch_85: -5733571470771676826
+      nkch_86: 6202094292456403300
+      nkch_87: -8544177795409844380
+      nkch_88: -3971567282331216505
+      nkch_89: -5086706689259371256
+      nkch_9: -4750590349244184814
+      nkch_90: -6925303136297200007
+      nkch_91: -2108440302435942617
+      nkch_92: 3641827996390824820
+      nkch_93: -6504743969271457404
+      nkch_94: -5214677821630351330
+      nkch_95: -7817957936323372898
+      nkch_96: -4806930636203187732
+      nkch_97: -1616663224675481497
+      nkch_98: -772468840395017399
+      nkch_99: 1686925221412515047
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

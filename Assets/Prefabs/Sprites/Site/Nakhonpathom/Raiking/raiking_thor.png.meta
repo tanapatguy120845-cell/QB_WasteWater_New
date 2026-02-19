@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: e27c5f03f6eea45fda55a325ade5022f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6268227267228424931
+    second: raiking_thor_0
+  - first:
+      213: -2624415254165971214
+    second: raiking_thor_1
+  - first:
+      213: -7518875994791312510
+    second: raiking_thor_2
+  - first:
+      213: -7990890740947465147
+    second: raiking_thor_3
+  - first:
+      213: -7022681539590195242
+    second: raiking_thor_4
+  - first:
+      213: 1222283008817004735
+    second: raiking_thor_5
+  - first:
+      213: -3855131709563104908
+    second: raiking_thor_6
+  - first:
+      213: 2387324280355554857
+    second: raiking_thor_7
+  - first:
+      213: -5139086317277406912
+    second: raiking_thor_8
+  - first:
+      213: -1462630058467244163
+    second: raiking_thor_9
+  - first:
+      213: 2891931895045365350
+    second: raiking_thor_10
+  - first:
+      213: 9051898936607070771
+    second: raiking_thor_11
+  - first:
+      213: 4204247992602699070
+    second: raiking_thor_12
+  - first:
+      213: -3920010552899870284
+    second: raiking_thor_13
+  - first:
+      213: 6446435768664127882
+    second: raiking_thor_14
+  - first:
+      213: -4080335231755672308
+    second: raiking_thor_15
+  - first:
+      213: -4617185333484479207
+    second: raiking_thor_16
+  - first:
+      213: 3913098592232237666
+    second: raiking_thor_17
+  - first:
+      213: 4325981041963904003
+    second: raiking_thor_18
+  - first:
+      213: -6028203455996470176
+    second: raiking_thor_19
+  - first:
+      213: 863258831871818728
+    second: raiking_thor_20
+  - first:
+      213: 5958290172583193945
+    second: raiking_thor_21
+  - first:
+      213: 2083902681464285044
+    second: raiking_thor_22
+  - first:
+      213: -4148866857776755246
+    second: raiking_thor_23
+  - first:
+      213: 3953059108821945143
+    second: raiking_thor_24
+  - first:
+      213: 630707649712133615
+    second: raiking_thor_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: raiking_thor_0
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 3425
+        width: 406
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea51923d773df650800000000000000
+      internalID: 6268227267228424931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_1
+      rect:
+        serializedVersion: 2
+        x: 4998
+        y: 3544
+        width: 1812
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe12582b34349bd0800000000000000
+      internalID: -2624415254165971214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_2
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 2991
+        width: 73
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28380449e1697a790800000000000000
+      internalID: -7518875994791312510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_3
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 2991
+        width: 73
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c4eda6537aa1190800000000000000
+      internalID: -7990890740947465147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_4
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 2882
+        width: 306
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d77806f85c6a8e90800000000000000
+      internalID: -7022681539590195242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_5
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 2926
+        width: 276
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0888babeb66f010800000000000000
+      internalID: 1222283008817004735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_6
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 2982
+        width: 74
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4719521b222df7ac0800000000000000
+      internalID: -3855131709563104908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_7
+      rect:
+        serializedVersion: 2
+        x: 5399
+        y: 2977
+        width: 73
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926024ec8ca712120800000000000000
+      internalID: 2387324280355554857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_8
+      rect:
+        serializedVersion: 2
+        x: 5690
+        y: 2982
+        width: 73
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0491c94f83c4ea8b0800000000000000
+      internalID: -5139086317277406912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_9
+      rect:
+        serializedVersion: 2
+        x: 5898
+        y: 2977
+        width: 74
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77404f06b1b3bbe0800000000000000
+      internalID: -1462630058467244163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_10
+      rect:
+        serializedVersion: 2
+        x: 6249
+        y: 2983
+        width: 73
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e1dc68cb4322820800000000000000
+      internalID: 2891931895045365350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_11
+      rect:
+        serializedVersion: 2
+        x: 6458
+        y: 2977
+        width: 73
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a5333bf1ece9d70800000000000000
+      internalID: 9051898936607070771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_12
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1640
+        width: 344
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35abb2364d785a30800000000000000
+      internalID: 4204247992602699070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_13
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1668
+        width: 1509
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1ee96db235999c0800000000000000
+      internalID: -3920010552899870284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_14
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1640
+        width: 310
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89f89a4d27567950800000000000000
+      internalID: 6446435768664127882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_15
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 1599
+        width: 559
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0521baa9bcbf57c0800000000000000
+      internalID: -4080335231755672308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_16
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 2153
+        width: 104
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d938fe6667cefb0800000000000000
+      internalID: -4617185333484479207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_17
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 1634
+        width: 1028
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a6519ef6e1e4630800000000000000
+      internalID: 3913098592232237666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_18
+      rect:
+        serializedVersion: 2
+        x: 4924
+        y: 1630
+        width: 274
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c255f66d8f80c30800000000000000
+      internalID: 4325981041963904003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_19
+      rect:
+        serializedVersion: 2
+        x: 5292
+        y: 1893
+        width: 544
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c5c8345e4875ca0800000000000000
+      internalID: -6028203455996470176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_20
+      rect:
+        serializedVersion: 2
+        x: 5838
+        y: 1644
+        width: 373
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb30f67559eafb00800000000000000
+      internalID: 863258831871818728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_21
+      rect:
+        serializedVersion: 2
+        x: 6198
+        y: 1598
+        width: 599
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95da585f75910b250800000000000000
+      internalID: 5958290172583193945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_22
+      rect:
+        serializedVersion: 2
+        x: 6909
+        y: 1822
+        width: 107
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477a923a2728bec10800000000000000
+      internalID: 2083902681464285044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_23
+      rect:
+        serializedVersion: 2
+        x: 7077
+        y: 1683
+        width: 635
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd43d113934c66c0800000000000000
+      internalID: -4148866857776755246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_24
+      rect:
+        serializedVersion: 2
+        x: 7165
+        y: 1679
+        width: 88
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b4475b0561cd630800000000000000
+      internalID: 3953059108821945143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raiking_thor_25
+      rect:
+        serializedVersion: 2
+        x: 7370
+        y: 1677
+        width: 87
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5963a0449b0c800800000000000000
+      internalID: 630707649712133615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      raiking_thor_0: 6268227267228424931
+      raiking_thor_1: -2624415254165971214
+      raiking_thor_10: 2891931895045365350
+      raiking_thor_11: 9051898936607070771
+      raiking_thor_12: 4204247992602699070
+      raiking_thor_13: -3920010552899870284
+      raiking_thor_14: 6446435768664127882
+      raiking_thor_15: -4080335231755672308
+      raiking_thor_16: -4617185333484479207
+      raiking_thor_17: 3913098592232237666
+      raiking_thor_18: 4325981041963904003
+      raiking_thor_19: -6028203455996470176
+      raiking_thor_2: -7518875994791312510
+      raiking_thor_20: 863258831871818728
+      raiking_thor_21: 5958290172583193945
+      raiking_thor_22: 2083902681464285044
+      raiking_thor_23: -4148866857776755246
+      raiking_thor_24: 3953059108821945143
+      raiking_thor_25: 630707649712133615
+      raiking_thor_3: -7990890740947465147
+      raiking_thor_4: -7022681539590195242
+      raiking_thor_5: 1222283008817004735
+      raiking_thor_6: -3855131709563104908
+      raiking_thor_7: 2387324280355554857
+      raiking_thor_8: -5139086317277406912
+      raiking_thor_9: -1462630058467244163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
