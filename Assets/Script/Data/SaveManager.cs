@@ -35,6 +35,7 @@ public class SaveManager : MonoBehaviour
     [Header("Prefab Library (Mapping Types)")]
     public List<PrefabMapping> tankLibrary = new List<PrefabMapping>();   // Map: "Tank01" -> PrefabA
     public List<PrefabMapping> deviceLibrary = new List<PrefabMapping>(); // Map: "valve" -> PrefabB
+    public List<PrefabMapping> sensorLibrary = new List<PrefabMapping>(); // Map: "floating_ball" -> PrefabC
 
 [Header("Settings")]
 public Transform levelRoot; // (ถ้ามี) วัตถุที่เป็นโฟลเดอร์เก็บ Tank ใน Hierarchy
@@ -130,6 +131,23 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
                 tData.children.Add(cData);
             }
 
+            // ดึงข้อมูล Sensor ลูกๆ
+            foreach (var sensorComp in tank.GetComponentsInChildren<SensorComponent>())
+            {
+                var sData = sensorComp.ToData(tank.transform);
+
+                ChildSaveData cData = new ChildSaveData
+                {
+                    id = sData.sensorID,
+                    category = "sensor",
+                    type = GetSensorTypeID(sensorComp),
+                    name = sData.displayName,
+                    position = new Vector2(sData.localPosition.x, sData.localPosition.y),
+                    properties = new ChildProperties { data_key = sData.dataKey }
+                };
+                tData.children.Add(cData);
+            }
+
             rootData.objects.Add(tData);
         }
 
@@ -157,7 +175,7 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
                 ObjectSaveData o = new ObjectSaveData { id = obj.id, category = obj.category, type = obj.type, name = obj.name, position = obj.position };
                 foreach (var ch in obj.children)
                 {
-                    ChildSaveData ch2 = new ChildSaveData { id = ch.id, category = ch.category, type = ch.type, name = ch.name, position = ch.position };
+                    ChildSaveData ch2 = new ChildSaveData { id = ch.id, category = ch.category, type = ch.type, name = ch.name, position = ch.position, properties = ch.properties };
                     o.children.Add(ch2); // note: topic intentionally not copied
                 }
                 uploadData.objects.Add(o);
@@ -363,25 +381,48 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
                 // 2. สร้างอุปกรณ์ภายใน (Devices)
                 foreach (var dData in tData.children)
                 {
-                    GameObject prefabToSpawn = GetPrefabByDeviceType(dData.type);
-                    
-                    if (prefabToSpawn != null)
+                    if (dData.category == "sensor")
                     {
-                        // สร้างออกมา
-                        GameObject newDevice = Instantiate(prefabToSpawn, newTank.transform);
-                        newDevice.transform.localPosition = dData.position;
-
-                        // 🌟 ดึงสคริปต์ DeviceComponent ออกมาเพื่อคืนค่าชื่อแสดงผล และ topic (ถ้ามี)
-                        DeviceComponent devComp = newDevice.GetComponent<DeviceComponent>();
-                        if (devComp != null)
+                        // === SENSOR ===
+                        GameObject sensorPrefab = GetPrefabBySensorType(dData.type);
+                        if (sensorPrefab != null)
                         {
-                            devComp.deviceID = dData.id;      // คืนค่า ID เดิม
-                            devComp.displayName = dData.name; // คืนค่าชื่อแสดงผลที่คุณเคยตั้งไว้
-                            devComp.topic = dData.topic;      // ตั้ง topic ที่ได้จาก data (อาจเป็น null/empty)
-                            devComp.deviceType = dData.type;  // Restore type (important!)
+                            GameObject newSensor = Instantiate(sensorPrefab, newTank.transform);
+                            newSensor.transform.localPosition = dData.position;
+
+                            SensorComponent senComp = newSensor.GetComponent<SensorComponent>();
+                            if (senComp != null)
+                            {
+                                senComp.sensorID = dData.id;
+                                senComp.displayName = dData.name;
+                                senComp.sensorType = dData.type;
+                                senComp.dataKey = (dData.properties != null) ? dData.properties.data_key : "";
+                            }
+
+                            Debug.Log($"โหลด Sensor: {dData.name} สำเร็จ! (Type: {dData.type})");
                         }
+                    }
+                    else
+                    {
+                        // === DEVICE (default) ===
+                        GameObject prefabToSpawn = GetPrefabByDeviceType(dData.type);
                         
-                        Debug.Log($"โหลด Device: {dData.name} สำเร็จ! (Type: {dData.type})");
+                        if (prefabToSpawn != null)
+                        {
+                            GameObject newDevice = Instantiate(prefabToSpawn, newTank.transform);
+                            newDevice.transform.localPosition = dData.position;
+
+                            DeviceComponent devComp = newDevice.GetComponent<DeviceComponent>();
+                            if (devComp != null)
+                            {
+                                devComp.deviceID = dData.id;
+                                devComp.displayName = dData.name;
+                                devComp.topic = dData.topic;
+                                devComp.deviceType = dData.type;
+                            }
+                            
+                            Debug.Log($"โหลด Device: {dData.name} สำเร็จ! (Type: {dData.type})");
+                        }
                     }
                 }
             }
@@ -431,6 +472,28 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
         return null;
     }
 
+    // ฟังก์ชันช่วยเลือก Prefab Sensor ตาม "Type" ที่เซฟไว้
+    private GameObject GetPrefabBySensorType(string type)
+    {
+        if (string.IsNullOrEmpty(type))
+        {
+            if (sensorLibrary.Count > 0) return sensorLibrary[0].prefab;
+            return null;
+        }
+
+        var mapping = sensorLibrary.Find(x => x.typeID == type);
+        if (mapping.prefab != null) return mapping.prefab;
+
+        if (sensorLibrary.Count > 0)
+        {
+            Debug.LogWarning($"[SaveManager] Sensor Type '{type}' not found. Using default: {sensorLibrary[0].typeID}");
+            return sensorLibrary[0].prefab;
+        }
+
+        Debug.LogError($"[SaveManager] Critical: No Sensor found for type '{type}' and Library is empty.");
+        return null;
+    }
+
     // --- Helper Functions for Auto-Detection ---
 
     private string GetTankTypeID(TankData tank)
@@ -473,6 +536,23 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
 
         // 3. Fallback
         return cleanName; // ใช้ชื่อ Prefab ส่งไปเลย ถ้าไม่มีใน Library
+    }
+
+    private string GetSensorTypeID(SensorComponent sensor)
+    {
+        if (!string.IsNullOrEmpty(sensor.sensorType) && sensor.sensorType != "Sensor")
+            return sensor.sensorType;
+
+        string cleanName = sensor.gameObject.name.Replace("(Clone)", "").Trim();
+        foreach (var map in sensorLibrary)
+        {
+            if (map.prefab != null && map.prefab.name == cleanName)
+            {
+                return map.typeID;
+            }
+        }
+
+        return cleanName;
     }
 
     private IEnumerator SendLayoutToServer(string json)

@@ -29,6 +29,13 @@ public class ChildSaveData
     public string name;
     public Vector2 position;
     public string topic; // optional topic from server, stored locally but not uploaded back
+    public ChildProperties properties; // optional properties (e.g. data_key for sensors)
+}
+
+[System.Serializable]
+public class ChildProperties
+{
+    public string data_key;
 }
 
 // [System.Serializable] 

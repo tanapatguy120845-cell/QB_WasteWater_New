@@ -31019,6 +31019,7 @@ MonoBehaviour:
   selectedTank: {fileID: 0}
   renamePanel: {fileID: 142220115}
   deviceRenamePanel: {fileID: 51899478}
+  sensorRenamePanel: {fileID: 0}
 --- !u!1 &2024862004
 GameObject:
   m_ObjectHideFlags: 0
@@ -32318,6 +32319,9 @@ MonoBehaviour:
     prefab: {fileID: 6615252234070444200, guid: 68b56ce77a7326f41b53f8e237a526f1, type: 3}
   - typeID: adder
     prefab: {fileID: 7844694055502249399, guid: 5773e253edcd039479984bbdea2516b3, type: 3}
+  sensorLibrary:
+  - typeID: floating_ball
+    prefab: {fileID: 6744047588876181344, guid: 3919bc28ee9e6df448cbad6111785e8e, type: 3}
   levelRoot: {fileID: 0}
   uploadOnSave: 1
   layoutUploadBaseUrl: https://limbic-maker-service-uat.qualitybrain.tech//layouts/

@@ -6,6 +6,7 @@ public class TankManager : MonoBehaviour
     public WaterLevel2D selectedTank;
     public TankRename renamePanel;
     public DeviceRename deviceRenamePanel;
+    public SensorRename sensorRenamePanel;
 
     void Awake() 
     { 
@@ -34,5 +35,6 @@ public class TankManager : MonoBehaviour
     {
         if (renamePanel != null) renamePanel.gameObject.SetActive(false);
         if (deviceRenamePanel != null) deviceRenamePanel.gameObject.SetActive(false);
+        if (sensorRenamePanel != null) sensorRenamePanel.gameObject.SetActive(false);
     }
 }

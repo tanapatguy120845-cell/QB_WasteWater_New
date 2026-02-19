@@ -1,19 +1,5 @@
 mergeInto(LibraryManager.library, {
 
-    // ========== Convert YouTube URL to embeddable format ==========
-    _toEmbedUrl: function (url) {
-        // youtube.com/watch?v=VIDEO_ID → youtube.com/embed/VIDEO_ID
-        var match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([A-Za-z0-9_\-]+)/);
-        if (match) {
-            return 'https://www.youtube.com/embed/' + match[1] + '?autoplay=1&rel=0';
-        }
-        // youtube.com (homepage) → ไม่สามารถ embed ได้ ต้องเปิดแท็บใหม่
-        if (/^https?:\/\/(www\.)?youtube\.com\/?$/.test(url)) {
-            return null; // signal to open in new tab
-        }
-        return url;
-    },
-
     // ========== Show WebView (iframe overlay) ==========
     WebView_Show: function (urlPtr, x, y, width, height) {
         var url = UTF8ToString(urlPtr);
@@ -36,6 +22,17 @@ mergeInto(LibraryManager.library, {
         // If already exists, just show and reload
         var existing = document.getElementById('unity-webview-container');
         if (existing) {
+            // อัพเดตตำแหน่งใหม่ทุกครั้ง (กรณี resize/scroll)
+            var c = document.getElementById('unity-canvas')
+                || document.querySelector('#unity-container canvas')
+                || document.querySelector('canvas');
+            if (c && width > 0 && height > 0) {
+                var r = c.getBoundingClientRect();
+                existing.style.left = (r.left + x) + 'px';
+                existing.style.top  = (r.top  + y) + 'px';
+                existing.style.width  = width + 'px';
+                existing.style.height = height + 'px';
+            }
             existing.style.display = 'flex';
             existing.querySelector('iframe').src = embedUrl;
             return;
@@ -48,18 +45,27 @@ mergeInto(LibraryManager.library, {
             'position:fixed;z-index:9999;display:flex;flex-direction:column;' +
             'background:white;box-shadow:0 8px 32px rgba(0,0,0,0.35);overflow:hidden;';
 
+        // ── หา Unity Canvas เพื่อคำนวณตำแหน่งจริงบนหน้าจอ ──
+        var canvas = document.getElementById('unity-canvas')
+            || document.querySelector('#unity-container canvas')
+            || document.querySelector('canvas')
+            || null;
+
+        var canvasRect = canvas ? canvas.getBoundingClientRect() : { left: 0, top: 0, width: window.innerWidth, height: window.innerHeight };
+
         if (width > 0 && height > 0) {
-            overlay.style.left   = x + 'px';
-            overlay.style.top    = y + 'px';
+            // x, y จาก Unity = พิกัดภายใน Canvas → ต้องบวก offset ของ Canvas บนหน้าเว็บ
+            overlay.style.left   = (canvasRect.left + x) + 'px';
+            overlay.style.top    = (canvasRect.top  + y) + 'px';
             overlay.style.width  = width + 'px';
             overlay.style.height = height + 'px';
             overlay.style.borderRadius = '8px';
         } else {
-            // Fullscreen
-            overlay.style.left   = '0';
-            overlay.style.top    = '0';
-            overlay.style.width  = '100vw';
-            overlay.style.height = '100vh';
+            // Fullscreen = เต็มพื้นที่ Canvas เท่านั้น
+            overlay.style.left   = canvasRect.left + 'px';
+            overlay.style.top    = canvasRect.top + 'px';
+            overlay.style.width  = canvasRect.width + 'px';
+            overlay.style.height = canvasRect.height + 'px';
         }
 
         // --- Header bar ---
@@ -137,59 +143,49 @@ mergeInto(LibraryManager.library, {
         if (el) el.parentNode.removeChild(el);
     },
 
-    // ========== Go Back (limited in iframes) ==========
+    // ========== Check if WebView is visible ==========
+    WebView_IsVisible: function () {
+        var el = document.getElementById('unity-webview-container');
+        return el ? (el.style.display !== 'none' ? 1 : 0) : 0;
+    },
+
+    // ========== Navigate to URL ==========
+    WebView_LoadUrl: function (urlPtr) {
+        var url = UTF8ToString(urlPtr);
+        var el = document.getElementById('unity-webview-container');
+        if (el) {
+            var iframe = el.querySelector('iframe');
+            if (iframe) iframe.src = url;
+        }
+    },
+
+    // ========== Go Back ==========
     WebView_GoBack: function () {
-        var iframe = document.querySelector('#unity-webview-container iframe');
-        if (iframe && iframe.contentWindow) {
+        var el = document.getElementById('unity-webview-container');
+        if (el) {
+            var iframe = el.querySelector('iframe');
             try { iframe.contentWindow.history.back(); } catch (e) {}
         }
     },
 
     // ========== Can Go Back ==========
     WebView_CanGoBack: function () {
-        return false; // Cannot reliably detect in cross-origin iframes
+        // iframe ข้าม origin ไม่สามารถเช็ค history ได้โดยตรง — return true เสมอถ้ามี iframe อยู่
+        var el = document.getElementById('unity-webview-container');
+        return el ? 1 : 0;
     },
 
-    // ========== Load URL ==========
-    WebView_LoadUrl: function (urlPtr) {
-        var url = UTF8ToString(urlPtr);
-        // แปลง YouTube URL เป็น embed format
-        var match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([A-Za-z0-9_\-]+)/);
-        if (match) {
-            url = 'https://www.youtube.com/embed/' + match[1] + '?autoplay=1&rel=0';
-        }
-        var iframe = document.querySelector('#unity-webview-container iframe');
-        if (iframe) iframe.src = url;
-    },
-
-    // ========== Evaluate JavaScript (postMessage to iframe) ==========
+    // ========== Evaluate JavaScript in WebView ==========
     WebView_EvaluateJS: function (jsPtr) {
         var js = UTF8ToString(jsPtr);
-        var iframe = document.querySelector('#unity-webview-container iframe');
-        if (iframe && iframe.contentWindow) {
+        var el = document.getElementById('unity-webview-container');
+        if (el) {
+            var iframe = el.querySelector('iframe');
             try {
-                iframe.contentWindow.postMessage(JSON.parse(js), '*');
+                iframe.contentWindow.postMessage({ type: 'evalJS', code: js }, '*');
             } catch (e) {
-                // If not valid JSON, try eval (same-origin only)
                 try { iframe.contentWindow.eval(js); } catch (e2) {}
             }
-        }
-    },
-
-    // ========== Get localStorage (สำหรับ AuthManager) ==========
-    GetWebLocalStorage: function (keyPtr) {
-        var key = UTF8ToString(keyPtr);
-        try {
-            var value = window.localStorage.getItem(key);
-            if (value === null) return null;
-            
-            var bufferSize = lengthBytesUTF8(value) + 1;
-            var buffer = _malloc(bufferSize);
-            stringToUTF8(value, buffer, bufferSize);
-            return buffer;
-        } catch (e) {
-            console.error('[GetWebLocalStorage] Error:', e);
-            return null;
         }
     }
 });

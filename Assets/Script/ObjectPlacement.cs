@@ -62,7 +62,7 @@ public class ObjectPlacement : MonoBehaviour
 
         // เช็คประเภทวัตถุจาก Component และ Tag
         IPipeConnector previewConn = activeObj.GetComponent<IPipeConnector>();
-        bool isDeviceOrFloat = activeObj.CompareTag("Device") || activeObj.CompareTag("Float");
+        bool isDeviceOrFloat = activeObj.CompareTag("Device") || activeObj.CompareTag("Float") || activeObj.CompareTag("Sensor");
 
         // ตรรกะการ Snap
         if (previewConn != null)
@@ -315,8 +315,8 @@ public class ObjectPlacement : MonoBehaviour
     {
         if (obj == null) return false;
         
-        // เช็คว่าเป็น Device หรือ Float
-        bool isDevice = obj.CompareTag("Device") || obj.CompareTag("Float");
+        // เช็คว่าเป็น Device, Float หรือ Sensor
+        bool isDevice = obj.CompareTag("Device") || obj.CompareTag("Float") || obj.CompareTag("Sensor");
         if (!isDevice) return false;
         
         // เช็คว่า parent เป็น Tank หรือไม่
@@ -506,9 +506,12 @@ public class ObjectPlacement : MonoBehaviour
         if (hit.collider != null)
         {
             DeviceComponent hitDevice = hit.collider.GetComponentInParent<DeviceComponent>();
+            SensorComponent hitSensor = hit.collider.GetComponentInParent<SensorComponent>();
             TankData hitTank = hit.collider.GetComponentInParent<TankData>();
             if (hitDevice != null)
                 hitTarget = hitDevice.gameObject;
+            else if (hitSensor != null)
+                hitTarget = hitSensor.gameObject;
             else if (hitTank != null)
                 hitTarget = hitTank.gameObject;
             else
@@ -533,6 +536,7 @@ public class ObjectPlacement : MonoBehaviour
 
             TankData tankData = selectedObject.GetComponent<TankData>();
             DeviceComponent deviceData = selectedObject.GetComponent<DeviceComponent>();
+            SensorComponent sensorData = selectedObject.GetComponent<SensorComponent>();
 
             // เช็คว่าอยู่ใน Edit Mode หรือไม่
             bool isEditMode = SaveManager.Instance != null && SaveManager.Instance.IsEditMode;
@@ -554,6 +558,8 @@ public class ObjectPlacement : MonoBehaviour
                         TankManager.Instance.renamePanel.OpenRenamePanel(tankData);
                     else if (deviceData != null && TankManager.Instance.deviceRenamePanel != null)
                         TankManager.Instance.deviceRenamePanel.OpenRenamePanel(deviceData);
+                    else if (sensorData != null && TankManager.Instance.sensorRenamePanel != null)
+                        TankManager.Instance.sensorRenamePanel.OpenRenamePanel(sensorData);
                 }
                 else
                 {
@@ -626,6 +632,7 @@ public class ObjectPlacement : MonoBehaviour
             {
                 if (TankManager.Instance.renamePanel != null) TankManager.Instance.renamePanel.gameObject.SetActive(false);
                 if (TankManager.Instance.deviceRenamePanel != null) TankManager.Instance.deviceRenamePanel.gameObject.SetActive(false);
+                if (TankManager.Instance.sensorRenamePanel != null) TankManager.Instance.sensorRenamePanel.gameObject.SetActive(false);
             }
 
             DeselectCurrent();
@@ -677,7 +684,7 @@ public class ObjectPlacement : MonoBehaviour
             TankData tankData = tankHit.GetComponent<TankData>();
             if (tankData != null)
             {
-                bool isDeviceOrFloat = activeObj.CompareTag("Device") || activeObj.CompareTag("Float");
+                bool isDeviceOrFloat = activeObj.CompareTag("Device") || activeObj.CompareTag("Float") || activeObj.CompareTag("Sensor");
                 
                 if (isDeviceOrFloat)
                 {
