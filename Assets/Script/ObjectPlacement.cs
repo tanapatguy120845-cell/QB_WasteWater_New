@@ -259,6 +259,34 @@ public class ObjectPlacement : MonoBehaviour
                 if (joint == null) joint = newObj.AddComponent<FixedJoint2D>();
                 joint.connectedBody = parentTransform.GetComponent<Rigidbody2D>();
             }
+
+            // [NEW] Universal Flip Logic: Check parent hierarchy for "TankFloat (1)"
+            bool shouldFlip = false;
+            Transform current = newObj.transform.parent; // Check actual parent relationship
+            
+            while (current != null)
+            {
+                // Check if name contains BOTH "TankFloat" and "(1)"
+                if (current.name.Contains("TankFloat") && current.name.Contains("(1)"))
+                {
+                    shouldFlip = true;
+                    break;
+                }
+                
+                // Safety break at TankData (unless it IS the TankFloat)
+                if (current.GetComponent<TankData>() != null && !current.name.Contains("TankFloat")) 
+                {
+                    break;
+                }
+
+                current = current.parent;
+            }
+
+            SpriteRenderer sr = newObj.GetComponent<SpriteRenderer>();
+            if (sr != null)
+            {
+                sr.flipX = shouldFlip;
+            }
         }
 
         // ล้าง preview หลังวาง

@@ -135,15 +135,40 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
             foreach (var sensorComp in tank.GetComponentsInChildren<SensorComponent>())
             {
                 var sData = sensorComp.ToData(tank.transform);
+                
+                // [NEW] Check Flip state from Hierarchy (Force Check)
+                bool isFlipped = false;
+                SpriteRenderer sr = sensorComp.GetComponent<SpriteRenderer>();
+                
+                // 1. Check current visual
+                if (sr != null) isFlipped = sr.flipX;
+
+                // 2. Force True if inside TankFloat (1)
+                Transform chk = sensorComp.transform.parent;
+                while (chk != null)
+                {
+                   // Check name for TankFloat and (1)
+                   if (chk.name.Contains("TankFloat") && chk.name.Contains("(1)"))
+                   {
+                       isFlipped = true;
+                       break;
+                   }
+                   if (chk.GetComponent<TankData>() != null && !chk.name.Contains("TankFloat")) break; 
+                   chk = chk.parent;
+                }
 
                 ChildSaveData cData = new ChildSaveData
                 {
                     id = sData.sensorID,
-                    category = "sensor",
+                    category = "device", // [CHANGED] Send as "device" per requirement
                     type = GetSensorTypeID(sensorComp),
                     name = sData.displayName,
                     position = new Vector2(sData.localPosition.x, sData.localPosition.y),
-                    properties = new ChildProperties { data_key = sData.dataKey }
+                    properties = new ChildProperties 
+                    { 
+                        data_key = sData.dataKey,
+                        flip_x = isFlipped // [NEW] Save flip state
+                    }
                 };
                 tData.children.Add(cData);
             }
@@ -381,7 +406,10 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
                 // 2. สร้างอุปกรณ์ภายใน (Devices)
                 foreach (var dData in tData.children)
                 {
-                    if (dData.category == "sensor")
+                    // [UPDATED] Check if it is a sensor via Library lookup
+                    bool isSensor = (dData.category == "sensor") || IsSensorType(dData.type);
+
+                    if (isSensor)
                     {
                         // === SENSOR ===
                         GameObject sensorPrefab = GetPrefabBySensorType(dData.type);
@@ -389,6 +417,13 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
                         {
                             GameObject newSensor = Instantiate(sensorPrefab, newTank.transform);
                             newSensor.transform.localPosition = dData.position;
+
+                            // [NEW] Apply Flip
+                            if (dData.properties != null && dData.properties.flip_x)
+                            {
+                                SpriteRenderer sr = newSensor.GetComponent<SpriteRenderer>();
+                                if (sr != null) sr.flipX = true;
+                            }
 
                             SensorComponent senComp = newSensor.GetComponent<SensorComponent>();
                             if (senComp != null)
@@ -540,7 +575,8 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
 
     private string GetSensorTypeID(SensorComponent sensor)
     {
-        if (!string.IsNullOrEmpty(sensor.sensorType) && sensor.sensorType != "Sensor")
+        // [UPDATED] Ignore "Sensor" and "Float" (from tag) to allow Library lookup to work
+        if (!string.IsNullOrEmpty(sensor.sensorType) && sensor.sensorType != "Sensor" && sensor.sensorType != "Float")
             return sensor.sensorType;
 
         string cleanName = sensor.gameObject.name.Replace("(Clone)", "").Trim();
@@ -618,6 +654,12 @@ public string layoutUploadBaseUrl = "https://limbic-maker-service-uat.qualitybra
     {
         TankData[] tanks = FindObjectsOfType<TankData>();
         foreach (var t in tanks) Destroy(t.gameObject);
+    }
+
+    private bool IsSensorType(string typeID)
+    {
+        if (string.IsNullOrEmpty(typeID)) return false;
+        return sensorLibrary.Exists(x => x.typeID == typeID);
     }
 
     private void ExecuteFitAll()

@@ -31,14 +31,18 @@ public class SensorRename : MonoBehaviour
     {
         currentSensor = sensor;
         nameInput.text = sensor.displayName;
+        
         panel.SetActive(true);
     }
 
     private void SaveName()
     {
-        if (currentSensor != null && !string.IsNullOrEmpty(nameInput.text))
+        if (currentSensor != null)
         {
-            currentSensor.SetDisplayName(nameInput.text);
+            if (!string.IsNullOrEmpty(nameInput.text))
+            {
+                currentSensor.SetDisplayName(nameInput.text);
+            }
         }
 
         ClosePanel();

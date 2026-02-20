@@ -36,6 +36,7 @@ public class ChildSaveData
 public class ChildProperties
 {
     public string data_key;
+    public bool flip_x; // [NEW] เก็บค่าการกลับด้าน
 }
 
 // [System.Serializable] 

@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 1613222233462610688}
   - component: {fileID: 5035982444749548613}
   - component: {fileID: 4269345807302573608}
-  - component: {fileID: 1418186270296010394}
+  - component: {fileID: -3486097433681234408}
   m_Layer: 0
   m_Name: sensor00
   m_TagString: Float
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PGroup.PlacementChecker
   placementName: PlacementSensor
---- !u!114 &1418186270296010394
+--- !u!114 &-3486097433681234408
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,13 +260,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6744047588876181344}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e7cd8925d49d04caa860ac6b4cda05, type: 3}
+  m_Script: {fileID: 11500000, guid: cb95f7deab849104d8a3861585071427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deviceData:
-    id: 
-    category: 
-    type: 
-    name: 
-    preview_image: 
-    is_active: 0
+  sensorID: 
+  displayName: Unnamed Sensor
+  sensorType: 
+  isPlaced: 0
+  dataKey: 
+  offsetY: -0.2

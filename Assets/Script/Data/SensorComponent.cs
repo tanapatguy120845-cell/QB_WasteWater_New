@@ -41,6 +41,12 @@ public class SensorComponent : MonoBehaviour
         Debug.Log($"[Sensor] เปลี่ยนชื่อแสดงผลเป็น: {newName}");
     }
 
+    public void SetDataKey(string newKey)
+    {
+        dataKey = newKey;
+        Debug.Log($"[Sensor] เปลี่ยน Data Key เป็น: {newKey}");
+    }
+
     public SensorData ToData(Transform tankTransform)
     {
         return new SensorData
